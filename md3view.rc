@@ -68,7 +68,7 @@ BEGIN
         MENUITEM "Toggle FOV 80/90/10\tCTRL-F", ID_VIEW_FOVTOGGLE
         MENUITEM "Toggle &Bounding-box\tCTRL-B", ID_VIEW_BOUNDSTOGGLE
         MENUITEM SEPARATOR
-        MENUITEM "Toggle &Vertex Normals\tCTRL-V", ID_VIEW_VERTEXNORMALS
+        MENUITEM "Toggle Vertex Normals\tCTRL-V", ID_VIEW_VERTEXNORMALS
         MENUITEM "Decrease Normal Scale Factor\t[", ID_VIEW_DECREASENORMALSCALE
         MENUITEM "Increase Normal Scale Factor\t]", ID_VIEW_INCREASENORMALSCALE
         MENUITEM "Reset Normal Scale Factor\t\\", ID_VIEW_RESETNORMALSCALE
