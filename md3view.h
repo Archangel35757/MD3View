@@ -212,7 +212,7 @@ bool ParseSequenceLockFile(LPCSTR psFilename);
 							"mvwebsite.hypermart.net\t\n\n" \
 							"SOURCE CODE IS FREELY AVAILABLE!!!\n" \
 							"Source code for v1.62 is found here:\n" \
-							"https://github.com/JACoders/OpenJK/tree/master/tools/MD3View" \
+							"https://github.com/Archangel35757/MD3View" \
 							sRAVEN \
 							"\n(v1.61: Skewing-free GLM export fix by Mr. Wonko)" \
 							"\n(v1.62: Fix bounding box; display of vertex normals added by Archangel)"
