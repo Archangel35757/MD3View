@@ -30,7 +30,8 @@ this should be the only file included by system dependent code, but that rule is
 //this is the caption name & the name in the about box
 //mrwonko:	 version 1.61
 //Archangel: version 1.62 - fixed bounding box for animated models; added option for display of vertex normals
-#define FILENAME "MD3View v1.62"
+//Archangel: version 1.63 - changed limits to allow displaying models that exceed legacy Quake limits
+#define FILENAME "MD3View v1.63"
 
 /*! 
 enumeration of various display modes that the ogl rendering engine supports. line refers
@@ -211,11 +212,12 @@ bool ParseSequenceLockFile(LPCSTR psFilename);
 							"For more information go to: \t\n" \
 							"mvwebsite.hypermart.net\t\n\n" \
 							"SOURCE CODE IS FREELY AVAILABLE!!!\n" \
-							"Source code for v1.62 is found here:\n" \
+							"Source code for v1.63 is found here:\n" \
 							"https://github.com/Archangel35757/MD3View" \
 							sRAVEN \
 							"\n(v1.61: Skewing-free GLM export fix by Mr. Wonko)" \
-							"\n(v1.62: Fix bounding box; display of vertex normals added by Archangel)"
+							"\n(v1.62: Fix bounding box; added display of vertex normals by Archangel)" \
+							"\n(v1.63: Allows viewing models exceeding vertex limits by Archangel)"
 
 extern int giTagMenuSubtractValue_Torso;
 extern int giTagMenuSubtractValue_Head;

@@ -79,6 +79,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="glu32.lib opengl32.lib odbc32.lib odbccp32.lib"
 				OutputFile=".\Release/MD3View.exe"
+				Version="1.63"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
